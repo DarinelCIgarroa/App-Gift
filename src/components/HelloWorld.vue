@@ -1,30 +1,20 @@
 <template>
-  <h1>Hello world</h1>
+  <div class="card" style="width: 100%">
+    <div class="card-body">
+      <h5 class="card-title">Darinel Cigarroa De Los Santos</h5>
+      <h6 class="card-subtitle mb-2 text-muted">App Vue3</h6>
+      <p class="card-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic
+        expedita dolore recusandae, deleniti odio dignissimos quidem nemo.
+        Soluta architecto pariatur quia ipsa laboriosam blanditiis rem mollitia
+        recusandae repellat suscipit.
+      </p>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
-}
+  name: "HelloWorld",
+};
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
