@@ -3,7 +3,7 @@
     <h1 class="text-center">Stickers</h1>
     <hr />
     <div class="search">
-      <Search @searchCategory="getGifs" />
+      <SearchData @search="getData" />
     </div>
     <div class="row">
       <div class="content-card">
@@ -18,18 +18,18 @@
 
 <script>
 import StickerCard from "@/components/StickerCard.vue";
-import Search from "../components/Search.vue";
+import SearchData from "../components/SearchData.vue";
 import Loading from "../components/Loading.vue";
 
 export default {
   name: "Stickers",
-  components: { StickerCard, Search, Loading },
+  components: { StickerCard, SearchData, Loading },
   data: () => ({
     stickers: {},
     loading: null,
   }),
   methods: {
-    async getGifs(search = "naruto") {
+    async getData(search = "naruto") {
       this.loading = true;
       const { data } = await this.axios.get(
         `https://api.giphy.com/v1/stickers/search?q=${search}&api_key=aFNFkgVW4NfEgRc3oq3MrGwU56oVnCjh`
@@ -39,7 +39,7 @@ export default {
     },
   },
   created() {
-    this.getGifs();
+    this.getData();
   },
 };
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <form @submit.prevent="searchCategory">
+  <form @submit.prevent="searchData">
     <div class="mb-3">
       <input
         v-model="search"
@@ -14,13 +14,13 @@
 
 <script>
 export default {
-  name: "Search",
+  name: "SearchData",
   data: () => ({
     search: "",
   }),
   methods: {
-    searchCategory() {
-      this.$emit("searchCategory", this.search);
+    searchData() {
+      this.$emit("search", this.search);
     },
   },
 };

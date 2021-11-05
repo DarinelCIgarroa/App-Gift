@@ -3,7 +3,7 @@
     <h1 class="text-center">Gifs</h1>
     <hr />
     <div class="search">
-      <Search @searchCategory="getGifs" />
+      <SearchData @search="getGifs" />
     </div>
     <div class="row">
       <div class="content-card">
@@ -18,12 +18,12 @@
 
 <script>
 import GifCard from "@/components/GifCard.vue";
-import Search from "../components/Search.vue";
+import SearchData from "../components/SearchData.vue";
 import Loading from "../components/Loading.vue";
 
 export default {
   name: "Gifs",
-  components: { GifCard, Search, Loading },
+  components: { GifCard, SearchData, Loading },
   data: () => ({
     gifs: {},
     loading: null,
