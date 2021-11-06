@@ -3,12 +3,7 @@
     <div class="content-info">
         <h1>Darinel Cigarroa De Los Santos</h1>
         <p>
-          Cree esta app con VueJS en su versión 3, con la finalidad de aprender
-          a consummir la API de GHYPHY Developers esta API nos otorga una gran
-          varidad de recursos GIF y STICKERS los cuales estan siendo consumidos
-          a traves de una petición axios, esta aplicación ademas es PWA
-          (Progressive Web App) de esta manera la apliación es multiplataforma
-          disponible para instlar en Android, Iphone, Windows, Linux, etc.
+         Cree esta app con VueJS en su versión 3, con la finalidad de aprender a consumir la API de GHYPHY Developers, esta API nos otorga una gran variedad de recursos GIF y STICKERS los cuales están siendo consumidos a través de axios, esta aplicación ademas es PWA (Progressive Web App), de esta manera la aplicación es multiplataforma, disponible para instalar en Android, Iphone, Windows, Linux, etc.
         </p>
     </div>
   </div>
