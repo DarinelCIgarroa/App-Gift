@@ -12,9 +12,7 @@
       "themeColor": "#000000",
       "appleMobileWebAppCapable": "yes",
       "appleMobileWebAppStatusBarStyle": "black-translucent",
-      "workboxOptions": {
-        "exclude": ["/_redirects/"]
-      }
+      "exclude": ["/_redirects/"]
     }
   },
   "dependencies": {
