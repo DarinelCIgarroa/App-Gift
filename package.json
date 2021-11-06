@@ -12,7 +12,7 @@
       "themeColor": "#000000",
       "appleMobileWebAppCapable": "yes",
       "appleMobileWebAppStatusBarStyle": "black-translucent",
-      "exclude": ["/_redirects/"]
+      "exclude": "./public/_redirects"
     }
   },
   "dependencies": {
