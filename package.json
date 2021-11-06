@@ -11,7 +11,8 @@
       "name": "App Gif Router",
       "themeColor": "#444444",
       "appleMobileWebAppCapable": "yes",
-      "appleMobileWebAppStatusBarStyle": "black-translucent"
+      "appleMobileWebAppStatusBarStyle": "black-translucent",
+      "start_url": "./"
     }
   },
   "dependencies": {
