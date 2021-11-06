@@ -11,7 +11,10 @@
       "name": "App Gif Router",
       "themeColor": "#000000",
       "appleMobileWebAppCapable": "yes",
-      "appleMobileWebAppStatusBarStyle": "black-translucent"
+      "appleMobileWebAppStatusBarStyle": "black-translucent",
+      "workboxOptions": {
+        "exclude": ["/_redirects/"]
+      }
     }
   },
   "dependencies": {
