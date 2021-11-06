@@ -11,7 +11,6 @@
       <p class="card-text">
        Creador: {{ gif.slug}}
       </p>
-      <!-- <a :href="#" class="btn btn-primary">Go somewhere</a> -->
     </div>
   </div>
 </template>
